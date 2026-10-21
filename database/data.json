@@ -1,0 +1,92 @@
+{
+  "skills": [
+    {
+      "key": "age",
+      "number": 27,
+      "text": "Возраст начала занятий на скрипке"
+    },
+    {
+      "key": "concerts",
+      "number": 57,
+      "text": "Концертов отыграл"
+    },
+    {
+      "key": "cities",
+      "number": 27,
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "key": "years",
+      "number": 7,
+      "text": "Лет на сцене в качестве скрипача"
+    }
+  ],
+  "products": [
+    {
+      "id": "5adff333df-b9c9-4ba7-aa30-23a57777cce",
+      "src": "/assets/img/products/Work1.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "id": "5a34f678f2f-b9c9-4ba7-aa30-234567e3webce",
+      "src": "/assets/img/products/Work2.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "id": "5adffghj-b9c9-4ba7-aa30-23ahjjkhbce",
+      "src": "/assets/img/products/Work4.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "id": "5adxc-b9c9-4ba7-aa30xcb5sdf6ebce",
+      "src": "/assets/img/products/Work5.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "id": "5adfghf-b9c9-4ba7-aa30-23a5swrtyce",
+      "src": "/assets/img/products/Work6.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "id": "5adscvb2f-b9c9-4ba7-aa30-23ambnkebce",
+      "src": "/assets/img/products/Work7.jpg",
+      "name": "Печатная машинка",
+      "price": 10600
+    },
+    {
+      "id": "5awer2f-b9c9-4ba7-aa30-23auf6ebce",
+      "src": "/assets/img/products/Work8.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "id": "5adfff2f-b9c9-4ba7-aa30-23a5sdf6ebce",
+      "src": "/assets/img/products/Work9.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "id": "5ae55105-d904-4409-a5fe-f0943925df38",
+      "src": "/assets/img/products/fk31myrfj7u7lzbfqevve4wyx.png",
+      "name": "Testname",
+      "price": 1000
+    },
+    {
+      "id": "96caeb36-ab41-41e5-9149-b7f8ea265020",
+      "src": "/assets/img/products/yxdo81m4hgacd8gep2vxz2jnu.png",
+      "name": "red phone",
+      "price": 6600
+    },
+    {
+      "id": "d30c862a-2d96-40c1-ad43-7111cff3aa2d",
+      "src": "/assets/img/products/wrh6yaof3pvr8i9qs6s95ibaz.png",
+      "name": "Testname",
+      "price": 100000
+    }
+  ]
+}
