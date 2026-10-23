@@ -13,6 +13,3 @@ html
     h1 #{message} 
     if error && error.status
       h2 Статус: #{status}
-
-    if error && error.stack
-      pre(style="background: #f4f4f4; padding: 15px; overflow-x: auto;") #{error.stack}

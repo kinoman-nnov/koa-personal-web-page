@@ -63,6 +63,7 @@ loginRoute.post('/', loginLimiter, async (ctx, next) => {
       );
     }
 
+    ctx.session = null; // Очищаем старую сесс
     // пользователь авторизован
     ctx.session.user = {
       id: user.id,

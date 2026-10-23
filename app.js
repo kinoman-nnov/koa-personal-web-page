@@ -20,6 +20,7 @@ import { router } from './routes/index.js';
 import { errorHandler } from './services/errorHandler.js';
 
 const app = new Koa();
+app.proxy = true;
 
 const secret = configModule.getConfig.sessionSecret;
 
@@ -97,9 +98,11 @@ app.use(async (ctx, next) => {
 });
 
 const viewsPath = path.join(process.cwd(), 'views');
-app.use(views(viewsPath, {
-  extension: 'pug'
-}));
+app.use(
+  views(viewsPath, {
+    extension: 'pug'
+  })
+);
 
 const publicPath = path.join(process.cwd(), 'public');
 app.use(serve(publicPath));

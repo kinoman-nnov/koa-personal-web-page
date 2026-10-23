@@ -45,6 +45,15 @@ mainRoute.get('/', async (ctx) => {
 mainRoute.post('/api/contact', apiLimiter, async (ctx, next) => {
   const { name, email, message } = ctx.request.body || {};
 
+  if (typeof name !== 'string' || typeof email !== 'string' || typeof message !== 'string') {
+    ctx.status = 400;
+    ctx.body = {
+      msg: 'Некорректный формат данных',
+      status: 'Error'
+    }
+    return;
+  }
+
   if (!name?.trim() || !email?.trim() || !message?.trim()) {
     ctx.status = 400;
     ctx.body = {
